@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return <div>
-    <div className="navbar bg-[#401A49]">
+    <div className="navbar bg-[#401A49] pt-8 pl-16 pr-16">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -15,12 +15,9 @@ const Navbar = () => {
         <li tabIndex={0}>
           <Link className="justify-between">
             Course Details
-            {/* <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg> */}
+       
           </Link>
-          {/* <ul className="p-2">
-            <li><Link>Submenu 1</Link></li>
-            <li><Link>Submenu 2</Link></li>
-          </ul> */}
+         
         </li>
         <li><Link>About Us</Link></li>
         <li><Link>Log in</Link></li>
@@ -34,12 +31,8 @@ const Navbar = () => {
       <li tabIndex={0}>
         <Link>
           Course Details
-          {/* <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg> */}
+         
         </Link>
-        {/* <ul className="p-2">
-          <li><Link>Submenu 1</Link></li>
-          <li><Link>Submenu 2</Link></li>
-        </ul> */}
       </li>
       <li><Link>About Us</Link></li>
       <li><Link>Log in</Link></li>
