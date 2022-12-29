@@ -25,8 +25,9 @@ const Navbar = () => {
     </div>
     <Link className="ph-logo"><img src="https://i.ibb.co/f16cdD9/ph-high-resolution-logo-color-on-transparent-background.png" alt="ph-high-resolution-logo-color-on-transparent-background"/></Link>
   </div>
-  <div className="navbar-center  hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+  {/*  */}
+  <div className=" navbar-right hidden lg:flex">
+    <ul className="menu menu-horizontal  px-1 navbar-menu">
       <li><Link>Home</Link></li>
       <li tabIndex={0}>
         <Link>

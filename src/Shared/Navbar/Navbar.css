@@ -8,3 +8,8 @@
     color: #A391A7;
     /* background: #4D1F5E; */
 }
+.navbar-menu{
+    position: relative;
+    left: 550px;
+    top: 3px;
+}
