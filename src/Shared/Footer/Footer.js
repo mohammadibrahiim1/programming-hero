@@ -62,7 +62,7 @@ const Footer = () => {
       
       </footer>
       {/* <hr/> */}
-        <div className="text-center pb-10 pt-5 bg-gradient-to-b from-indigo-500 via-indigo-600 to-indigo-700">
+        <div className="text-center pb-10 pt-5 bg-gradient-to-b from-indigo-500  to-indigo-600 font-bold ">
             <p>programming-hero 2023</p>
         </div>
     </div>
