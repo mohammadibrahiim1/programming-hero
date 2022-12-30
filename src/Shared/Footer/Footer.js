@@ -5,7 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10">
+      <footer className="footer p-10 bg-gradient-to-t from-indigo-500 via-purple-500 to-pink-500">
         <div>
           <span className="footer-title">Office Address</span>
           <p className="address">
@@ -61,8 +61,8 @@ const Footer = () => {
         </div>
       
       </footer>
-      <hr/>
-        <div className="text-center pb-10 pt-5 bg-[#F7F7F7]">
+      {/* <hr/> */}
+        <div className="text-center pb-10 pt-5 bg-gradient-to-b from-indigo-500 via-indigo-600 to-indigo-700">
             <p>programming-hero 2023</p>
         </div>
     </div>

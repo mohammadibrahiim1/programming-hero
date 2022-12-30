@@ -3,6 +3,7 @@
     justify-content: space-evenly !important;
     padding-top: 80px;
     padding-bottom: 80px;
+    font-weight: bold;
 }
 .address{
     width: 276px;

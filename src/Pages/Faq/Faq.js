@@ -4,7 +4,7 @@ import "./Faq.css";
 const Faq = () => {
   return (
     <div>
-      <section className=" dark:text-gray-100 dark:bg-gray-800 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 pb-10 ">
+      <section className=" dark:text-gray-100 dark:bg-gray-800 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 pb-10 ">
         <div className="container w-1/2 mx-auto flex flex-col justify-center p-4 md:p-8">
           <h2 className="mb-12 pt-5 text-4xl font-bold leading-none text-center sm:text-5xl">
             Faq_
