@@ -2,52 +2,52 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.text-6xl {
+.text-7xl {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
 }
 .job-placement-card {
-
-  /* position: relative;
-  top: 50px; */
-  /* left: 100px; */
-  border-radius:7px;
-
+  border-radius: 7px;
 }
 .text-2xl {
- padding-top: 25%;
+  padding-top: 25%;
   font-family: JetBrains Mono;
   font-weight: 700;
 }
 .text-3xl {
-    padding-bottom: 25%;
+  padding-bottom: 25%;
   font-family: JetBrains Mono;
   font-weight: 700;
 }
-.about-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.connected-companies{
-    position: relative;
-    top: 100px;
-    right: 20px;
-    min-height: 320px;
-    max-width: 350px;
-    border-radius: 7px;
+.connected-companies {
+  position: relative;
+  top: 100px;
+  right: 20px;
+  min-height: 320px;
+  max-width: 350px;
+  border-radius: 7px;
 }
-.dedicated-job-placement{
-    min-height: 220px;
-    max-width: 280px;
-    border-radius: 7px;
-
+.dedicated-job-placement {
+  min-height: 220px;
+  max-width: 280px;
+  border-radius: 7px;
 }
-.about-card-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+.about-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.about-us-text {
+  position: relative;
+  top: 70px;
 }

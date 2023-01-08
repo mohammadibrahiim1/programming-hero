@@ -3,14 +3,14 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
-    <div className="">
+    <div className=" bg-[#F3EBEE]">
       <div className="about-container w-8/12 mx-auto">
-        <div>
+        <div className="about-us-text">
           <h5
             className="text-base text-[#7680E7]">
             Largest community
           </h5>
-          <h2 className="text-6xl"> Our <br/> Impact </h2>
+          <h2 className="text-7xl"> Our <br/> Impact </h2>
         </div>
         <div className="about-card-container">
           <div className="min-h-[272px] max-w-[272px] bg-[#B6ACFF] text-center job-placement-card bg-gradient-to-r from-sky-500 to-indigo-500">
